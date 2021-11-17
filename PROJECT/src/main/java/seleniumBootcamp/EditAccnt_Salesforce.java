@@ -24,7 +24,7 @@ public class EditAccnt_Salesforce {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		driver.findElement(By.id("username")).sendKeys("makaia@testleaf.com");
-		driver.findElement(By.id("password")).sendKeys("SelBootcamp$1234");
+		driver.findElement(By.id("password")).sendKeys("SelBootcamp$12345");
 		driver.findElement(By.id("Login")).click();
 		driver.findElement(By.xpath("//div[@class='slds-icon-waffle']")).click();
 		driver.findElement(By.xpath("//button[text()='View All']")).click();
