@@ -30,6 +30,7 @@ public class EditOpportunity_SalesForce extends Baselogin {
 	driver.findElement(By.xpath("//button[text()='Save']")).click();
 	String text =driver.findElement(By.xpath("//span[text()='Perception Analysis']")).getText();
 	System.out.println("Stage is updated to :"+text);
-	
+	//close browser
+	driver.close();
 	}
 }
